@@ -16,7 +16,7 @@ from sklearn.svm import SVC
 #url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 
 # Load dataset from local system
-url="C:\Users\satish\PycharmProjects\EyeDoc\EyeDataSet.csv"
+url="http://eyedoc.esy.es/EyeData.dat"
 names = ['Burning', 'WateryEyes', 'ChangeInShape', 'RednessExceedThreeHour', 'BlurView', 'LightSensitivity','ItechyEyes','Fever','headache', 'Redness','Vasculization', 'Disese']
 dataset = pandas.read_csv(url, names=names)
 
