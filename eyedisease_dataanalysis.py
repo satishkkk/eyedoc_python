@@ -1,7 +1,7 @@
 # Load libraries
 import pandas
 from pandas.tools.plotting import scatter_matrix
-from sklearn import model_selection
+#from sklearn import model_selection
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
