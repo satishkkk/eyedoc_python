@@ -1,0 +1,6 @@
+Tkinter
+Flask==0.10.1
+requests==2.9.1
+pandas
+sklearn
+matplotlib
