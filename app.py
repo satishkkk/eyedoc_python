@@ -4,7 +4,7 @@ from flask import Flask,request, redirect, Response,jsonify
 import requests
 import json
 import re
-from eyedisease_dataanalysis import predict_disease
+#from eyedisease_dataanalysis import predict_disease
 app = Flask(__name__)
 
 #languages=[{'name':'C'} ,{'name':'JAVA'} , {'name':'PYTHON'} ,{'name':'RUBY'}]
